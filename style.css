@@ -6,3 +6,20 @@ ul {
     background-color: rgb(255, 255, 255);
   }
 
+  li {
+    display: inline;
+  }
+
+  li a:hover {
+    background-color: rgb(110, 110, 110);
+  }
+
+  .p {
+    font-family: 'Lato', cursive;
+  }
+
+  .h3 {
+    font-family: 'Sacramento', cursive;
+  }
+
+  
