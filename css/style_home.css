@@ -1,0 +1,173 @@
+.container-fluid {
+  position: relative;
+  background-color: F6F4F4;
+  z-index: -1;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow: scroll;
+}
+
+.top-right-text {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+
+
+.top-right-text a {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: F6F4F4;
+}
+    
+
+  li {
+    display: inline;
+    text-justify: auto;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+  }
+
+
+  li a:hover {
+    background-color: rgb(110, 110, 110);
+  }
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: .5rem;
+  width: 75vw;
+  left: 10vw;
+  right: 10vw;
+}
+
+
+  .p {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .h3 {
+    font-family: 'Sacramento', cursive;
+  }
+
+  .logo {
+    padding: -10;
+    margin: -10px;
+    font-family:'Sacramento', cursive ;
+    font-size: 56px;
+  }
+
+  .centre-tagline {
+    font-family:'Sacramento', cursive ;
+    font-size: 36px;
+    
+  }
+ 
+  /* .centre-logo-bottom {
+    border-bottom: 1px solid black;
+  } */
+
+  .centre-tagline :after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 40%; 
+    padding-top: 0px;
+    border-bottom: 1px solid rgb(46, 46, 46); 
+}
+
+.image-banner {
+
+}
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 30%;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.box {
+  position: absolute;
+  width: 40vw;
+  height:20vw;
+  background-color: rgba(255, 253, 253, .3);
+  left: 450px;
+  top: 400px;
+  z-index: 1;
+}
+
+.text {
+  margin: 30px;
+  
+}
+
+.button-homepage {
+  position: absolute;
+  left: 700px;
+  top: 600px;
+  z-index: 2;
+}
+
+.btn {
+  background-color: rgb(253, 253, 253);
+  width: 120px;
+  height: 42px;
+  border-radius: 0px;
+  padding: 8px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.footer-ribbon {
+  background-color: black;
+  color:cornsilk;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+
+/* .container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+ */
